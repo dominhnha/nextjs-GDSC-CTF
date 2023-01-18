@@ -5,7 +5,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../componets/Header/Header'
 import Layout from '../componets/MainLayout/Layout'
-
+import {signInWithGoogle,SignOut} from '../api/Authencation/Authencation'
 
 import { useSelector } from 'react-redux'
 const Home = () => {
