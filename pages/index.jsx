@@ -1,8 +1,8 @@
 
 
 import React from 'react'
-import Header from '../componets/Header/Header'
-import Layout from '../componets/MainLayout/Layout'
+import Header from '../components/Header/Header'
+import Layout from '../components/MainLayout/Layout'
 import {signInWithGoogle,SignOut} from '../api/Authencation/Authencation'
 
 import { useSelector } from 'react-redux'
